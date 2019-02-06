@@ -4,6 +4,7 @@
   "description": "A package for 6 Treehouse FSJS project",
   "main": "app.js",
   "scripts": {
+	"start": "node .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,12 +19,8 @@
   "homepage": "https://github.com/AndriiKodola/TreehouseTechdegree_FSJS_Unit-06#readme",
   "dependencies": {
     "body-parser": "^1.18.3",
-    "cookie-parser": "^1.4.3",
-    "debug": "^4.1.1",
     "express": "^4.16.4",
-    "morgan": "^1.9.1",
     "node": "^11.9.0",
-    "pug": "^2.0.3",
-    "serve-favicon": "^2.5.0"
+    "pug": "^2.0.3"
   }
 }

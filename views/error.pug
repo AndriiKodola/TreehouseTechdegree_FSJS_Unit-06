@@ -2,5 +2,5 @@ extends layout
 
 block content
     div
-        h1= `${error.message}: ${error.status}`
-        pre.stack-trace= error.stack
+        h1.error-descr= `${error.message}: ${error.status}`
+        pre.error-stack-trace= error.stack

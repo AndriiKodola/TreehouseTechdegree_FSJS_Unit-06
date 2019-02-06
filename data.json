@@ -1,0 +1,93 @@
+{
+    "projects": [
+        {
+            "id": "0",
+            "project_name": "A Random Quote Generator",
+            "description": "First JavaScript application for this Techdegree. It's a random quote generator, which displays quotations on a page, and can be controlled by the user.",
+            "technologies": [
+                "JS",
+                "HTML",
+                "CSS"
+            ],
+            "live_link": "https://andriikodola.github.io/TreehouseTechdegree_FSJS_Unit-01/",
+            "github_link": "https://github.com/AndriiKodola/TreehouseTechdegree_FSJS_Unit-01.git",
+            "image_urls": [
+                "/static/img/Unit-01_starting_page.png",
+                "/static/img/Unit-01_01.png",
+                "/static/img/Unit-01_02.png"
+            ]
+        },
+        {
+            "id": "1",
+            "project_name": "List Pagination and Filtering",
+            "description": "A program to paginarte a long list of student information and search for a particular student. This project was a good practice with work and change HTML.",
+            "technologies": [
+                "JS(ES2015)",
+                "Crome DevTools",
+                "HTML",
+                "Progressive enhancement"
+            ],
+            "live_link": "https://andriikodola.github.io/TreehouseTechdegree_FSJS_Unit-02/",
+            "github_link": "https://github.com/AndriiKodola/TreehouseTechdegree_FSJS_Unit-02.git",
+            "image_urls": [
+                "/static/img/Unit-02_starting_page.png",
+                "/static/img/Unit-02_01.png",
+                "/static/img/Unit-02_02.png"
+            ]
+        },
+        {
+            "id": "2",
+            "project_name": "Interactive Form",
+            "description": "A program to enhance an interactive registration form for a fictional conference called \"FullStack Conf.\". Provides useful info, hints and error messages based on user actions.",
+            "technologies": [
+                "JS(ES2015)",
+                "Regex",
+                "HTML Forms",
+                "jQuery"
+            ],
+            "live_link": "https://andriikodola.github.io/TreehouseTechdegree_FSJS_Unit-03/",
+            "github_link": "https://github.com/AndriiKodola/TreehouseTechdegree_FSJS_Unit-03.git",
+            "image_urls": [
+                "/static/img/Unit-03_starting_page.png",
+                "/static/img/Unit-03_01.png",
+                "/static/img/Unit-03_02.png",
+                "/static/img/Unit-03_03.png"
+            ]
+        },
+        {
+            "id": "3",
+            "project_name": "OOP Game Show App",
+            "description": "A browser-based, word guessing game. A player tries to guess the phrase by selecting individual letters from a keyboard.",
+            "technologies": [
+                "Object-Oriented JS",
+                "CSS"
+            ],
+            "live_link": "https://andriikodola.github.io/TreehouseTechdegree_FSJS_Unit-04/",
+            "github_link": "https://github.com/AndriiKodola/TreehouseTechdegree_FSJS_Unit-04.git",
+            "image_urls": [
+                "/static/img/Unit-04_starting_page.png",
+                "/static/img/Unit-04_01.png",
+                "/static/img/Unit-04_02.png",
+                "/static/img/Unit-04_03.png"
+            ]
+        },
+        {
+            "id": "4",
+            "project_name": "Public API Requests",
+            "description": "An app for a fictional company called Awesome Startup, a distributed company with remote employees working all over the world. They need a smart way for employees to share contact information with each other. Clicking the employee’s image or name will open a modal window with more detailed information, such as the employee’s birthday and address.",
+            "technologies": [
+                "Object-Oriented JS",
+                "Git",
+                "HTTP",
+                "AJAX",
+                "Fetch API"
+            ],
+            "live_link": "https://andriikodola.github.io/TreehouseTechdegree_FSJS_Unit-05/",
+            "github_link": "https://github.com/AndriiKodola/TreehouseTechdegree_FSJS_Unit-05.git",
+            "image_urls": [
+                "/static/img/Unit-05_starting_page.png",
+                "/static/img/Unit-05_01.png"
+            ]
+        }
+    ]
+}

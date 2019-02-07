@@ -21,12 +21,10 @@ app.use('/projects', projectRoutes);
  */
 app.get('/', (req, res, next) => {
     res.render('index', { projects });
-    next();
 });
 
 app.get('/about', (req, res, next) => {
     res.render('about');
-    next();
 });
 
 /**
@@ -53,7 +51,6 @@ app.listen(3000, () => {
 
 /**
  * TO-DO:
- * Document your style changes in your README.md file and the project submission notes.
  * 
  * Optionally - the path module which can be used when setting the absolute path in the express.static function.
  * Add more imgs

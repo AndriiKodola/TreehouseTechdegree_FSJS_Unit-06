@@ -1,6 +1,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const { projects } = require('./data.json');
+const port = 3000;
 
 const app = express();
 
@@ -45,13 +46,13 @@ app.use((err, req, res, next) => {
 /**
  * Setting the server
  */
-app.listen(3000, () => {
+app.listen(port, () => {
     console.log('Potfolio app is running on localhost:3000');
 });
 
 /**
  * TO-DO:
- * 
+ *
  * Optionally - the path module which can be used when setting the absolute path in the express.static function.
  * Add more imgs
  * Add live link

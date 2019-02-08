@@ -32,7 +32,7 @@ app.get('/about', (req, res, next) => {
  * Error handlers
  */
 app.use((req, res, next) => {
-    const err = new Error('Not found');
+    const err = new Error('Got lost?');
     err.status = 404;
     next(err);
 });

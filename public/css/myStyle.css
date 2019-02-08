@@ -1,10 +1,27 @@
-.error-descr, .error-stack-trace{
+.error-container{
+  background-image: linear-gradient(to left, #fff, transparent 50%), url("../img/not-found-error.png");
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-size: contain;
   color: #6d8d99;
-  margin-left: 2%;
+  padding-left: 2%;
 }
 
 .error-descr{
+  margin-top: 5%;
+  margin-bottom: 2%;
   font-family: 'Fredericka the Great', cursive;
+}
+
+.error-container a{
+  font-family: 'Bubbler One', sans-serif;
+  font-size: 1em;
+}
+
+.error-status{
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 1em;
+  margin-top: 2%;
 }
 
 .error-stack-trace{
@@ -64,7 +81,7 @@ a > img.thumbnail:hover{
 }
 
 .off-canvas-content{
-  background-image: linear-gradient(to right, #fff, transparent 125%),
+  background-image: linear-gradient(to top, #fff, transparent 125%),
    url("../img/background.jpg");
 }
 

@@ -1,6 +1,8 @@
 extends layout
 
 block content
-    div
-        h1.error-descr= `${error.message}: ${error.status}`
+    div.error-container
+        h1.error-descr= error.message
+        a(href='/') ←Back to main page.
+        h3.error-status= `By the way, status is ${error.status}.`
         pre.error-stack-trace= error.stack

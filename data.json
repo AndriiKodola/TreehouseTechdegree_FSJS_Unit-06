@@ -88,6 +88,25 @@
                 "/static/img/Unit-05_starting_page.png",
                 "/static/img/Unit-05_01.png"
             ]
+        },
+        {
+            "id": "5",
+            "project_name": "Gallery App",
+            "description": "An app which allows a user to find photos from Flickr on provided topic. It also gives a possibility to add a few effects to the photos to try out different views.",
+            "technologies": [
+                "React",
+                "JSX",
+                "React Router",
+                "Fetch API"
+            ],
+            "live_link": "https://andriikodola.github.io/Treehouse_Techdegree_FSJS_Unit07/",
+            "github_link": "https://github.com/AndriiKodola/Treehouse_Techdegree_FSJS_Unit07",
+            "image_urls": [
+                "/static/img/Unit-07_starting_page.png",
+                "/static/img/Unit-07_01.png",
+                "/static/img/Unit-07_02.png",
+                "/static/img/Unit-07_03.png"
+            ]
         }
     ]
 }

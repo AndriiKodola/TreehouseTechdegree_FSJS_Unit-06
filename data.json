@@ -107,6 +107,24 @@
                 "/static/img/Unit-07_02.png",
                 "/static/img/Unit-07_03.png"
             ]
+        },
+        {
+            "id": "6",
+            "project_name": "SQL Library Manager",
+            "description": "An application for a library to help them manage their collection of books.",
+            "technologies": [
+                "Node.js with Express",
+                "Pug",
+                "SQL ORM Sequelize"
+            ],
+            "live_link": "https://sql-bookshelf-th.herokuapp.com/",
+            "github_link": "https://github.com/AndriiKodola/Treehouse_Techdegree_FSJS_Unit08.git",
+            "image_urls": [
+                "/static/img/Unit-08_starting_page.png",
+                "/static/img/Unit-08_01.png",
+                "/static/img/Unit-08_02.png",
+                "/static/img/Unit-08_03.png"
+            ]
         }
     ]
 }
